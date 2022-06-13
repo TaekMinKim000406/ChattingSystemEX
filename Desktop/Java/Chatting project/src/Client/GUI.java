@@ -64,6 +64,7 @@ public class GUI extends JFrame {
 		contentPane.add(inputButton);
 		
 	
+		boardArea.setLayout(new FlowLayout());
 		boardArea.add(new JLabel("채팅을 시작합니다."));
 		boardArea.setBorder(contentpane_borderBorder);
 		boardArea.setPreferredSize(new Dimension(850, 700));
