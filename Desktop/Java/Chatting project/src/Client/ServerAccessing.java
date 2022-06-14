@@ -20,7 +20,7 @@ public class ServerAccessing {
 	
 	public ServerAccessing() {
 		try {
-			Socket socket= new Socket("localhost", 9999);
+			Socket socket= new Socket("localhost", 10501);
 			input = new BufferedReader(new InputStreamReader(socket.getInputStream()));
 			output = new BufferedWriter(new OutputStreamWriter(socket.getOutputStream()));
 		}

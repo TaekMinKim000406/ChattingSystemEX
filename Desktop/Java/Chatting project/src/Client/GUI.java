@@ -16,7 +16,7 @@ import javax.swing.border.EmptyBorder;
 import javax.swing.border.LineBorder;
 import javax.swing.border.TitledBorder;
 
-import com.sun.source.tree.WhileLoopTree;
+import Client.ServerAccessing;
 
 public class GUI extends JFrame {
 
